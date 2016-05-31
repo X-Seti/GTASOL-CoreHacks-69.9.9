@@ -9,6 +9,6 @@ I also need to get the source code and hacks stable.
 
 Edit;
 
-Just relized i uploaded the source files complecely wrong, should be listed here instead, not a 7z archive.
+Just relised I uploaded the source files completly wrong, should be listed the files here instead, not just a 7z archive.
 
-I will fix this in time.
+I will fix this in time. 
