@@ -1,0 +1,9 @@
+﻿Build started 31/05/2016 12:46:09.
+     1>Project "C:\SDKs\Projects\Project-Liberty\Project-Liberty\Loader\_Loader.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         _Loader.vcxproj -> C:\SDKs\Projects\Project-Liberty\Project-Liberty\Release\Client - Loader.exe
+     1>Done Building Project "C:\SDKs\Projects\Project-Liberty\Project-Liberty\Loader\_Loader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

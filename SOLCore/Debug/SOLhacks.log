@@ -1,0 +1,248 @@
+﻿  WaterHack.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  VehicleLimitPatch.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  RadarHack.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\radarhack.cpp(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+  MiscellaneousPatches.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  MenuMapHack.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\menumaphack.cpp(25): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\menumaphack.cpp(83): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\menumaphack.cpp(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\menumaphack.cpp(85): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\menumaphack.cpp(86): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  vehicle.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  FileLoaderAddIns.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\fileloaderaddins.cpp(91): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\fileloaderaddins.cpp(125): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+  renderware.cpp
+  GameVC.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  world.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  weather.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  trafficlights.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\trafficlights.cpp(338): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+  timer.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CTxdStore.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CTheZones.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CTheCarGenerators.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CSprite2D.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CPed.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  hookPathfinding.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  Generating Code...
+  Compiling...
+  pathfinding.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\pathfinding.cpp(647): warning C4018: '<' : signed/unsigned mismatch
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\pathfinding.cpp(1050): warning C4805: '==' : unsafe mix of type 'char' and type 'bool' in operation
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\pathfinding.cpp(1058): warning C4805: '==' : unsafe mix of type 'char' and type 'bool' in operation
+  entity.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CGeneral.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CGameVariables.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CGameHookManager.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cgamehookmanager.cpp(43): warning C4309: 'argument' : truncation of constant value
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cgamehookmanager.cpp(45): warning C4309: 'argument' : truncation of constant value
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cgamehookmanager.cpp(47): warning C4309: 'argument' : truncation of constant value
+  CFont.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CFileMgr.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfilemgr.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+  CFileLoader.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(88): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(110): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(133): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(142): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(149): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(182): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(203): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(221): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cfileloader.cpp(239): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+  CDebug.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cdebug.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cdebug.cpp(85): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cdebug.cpp(88): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cdebug.cpp(98): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cdebug.cpp(101): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cdebug.cpp(113): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cdebug.cpp(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+  CCurves.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CCullZones.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CCarCtrl.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(192): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(201): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(202): warning C4305: 'argument' : truncation from 'double' to 'const float'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(610): warning C4018: '>' : signed/unsigned mismatch
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(635): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(636): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(637): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\ccarctrl.cpp(638): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+  CAutoPilot.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\cautopilot.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+  automobile.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\automobile.cpp(36): warning C4409: illegal instruction size
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\automobile.cpp(37): warning C4409: illegal instruction size
+  D3D8System.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+  CMemory.cpp
+  CCustomFont.cpp
+c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7): warning C4005: '_pad' : macro redefinition
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2) : see previous definition of '_pad'
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\vehicle.h(8): warning C4099: 'CVehicle' : type name first seen using 'struct' now seen using 'class'
+          c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\commondefinations.h(6) : see declaration of 'CVehicle'
+c:\sdks\projects\project-liberty\project-liberty\solcore\ccustomfont.cpp(35): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+  Generating Code...
+c:\sdks\projects\project-liberty\project-liberty\solcore\cmemory.cpp(77): warning C4700: uninitialized local variable 'stHookDescriptor' used
+c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\pathfinding.cpp(1345): warning C4715: 'CPathFind::TestCoorsCloseness' : not all control paths return a value
+  SOLhacks.vcxproj -> D:\modding\gtavicecity\SOLcore.asi
