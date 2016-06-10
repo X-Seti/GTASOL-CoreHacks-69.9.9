@@ -242,7 +242,7 @@ public:
        //extra color for vehicle parts
      _pad(__fxpad03, 2); // 402-404
 	};
-
+	
 	struct CPickupVC {
       //CVector vecPos; // 0-12
        //position of the pickup
@@ -293,6 +293,5 @@ public:
 	  _pad(__fxpad00, 3); // 21-24
 	};
 };
-
-*/
+	*/
 #endif
