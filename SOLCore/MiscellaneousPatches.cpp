@@ -180,12 +180,6 @@ void PatchMiscData(){
 	CMemory::NoOperation(0x53F519, 0x07);
 	CMemory::InstallPatch<DWORD>(0x978574, 0xFF646464);
 
-	// Disable the calls to the default ingame menu.
-	//CMemory::NoOperation(0x49A062, 0x7);
-	//CMemory::NoOperation(0x499BEC, 0x7);
-	//CMemory::NoOperation(0x4994FA, 0x7);
-	//CMemory::NoOperation(0x497378, 0x7);
-
 	//  Collision Limits. default 44000
 	static char colbuffer[250000]; // increase bytes :)
 
@@ -338,11 +332,21 @@ void PatchMiscData(){
 	CMemory::InstallPatch<float>(0x68F1F8, 50.0); // set 50.0 default
 	CMemory::InstallPatch<float>(0x68F1FC, 5.0); // multiplier 5.0 default
 
+	// Misc engine sounds
+	CMemory::InstallPatch<float>(0x6AD1A0, 0.0);
+
+	// Disable the calls to the default ingame menu. 
+	CMemory::NoOperation(0x49A062, 0x7);
+	CMemory::NoOperation(0x499BEC, 0x7);
+	CMemory::NoOperation(0x4994FA, 0x7);
+	CMemory::NoOperation(0x497378, 0x7);
+
 	// Igorx's Memu hacks.
 	//0x4A2831 0x4A292B 0x4A2A34 0x4A2DB9 0x4A2EB3 0x4A2FC2 0x4A30D1 calls bar functions in menu
 	//I will describe every pos for the functions later
 
 	DWORD _old;
+
 	VirtualProtect((LPVOID)0x4A2831, 5, PAGE_READWRITE, &_old);
 	memset((PVOID)0x4A2831, 0x90, 5);
 	VirtualProtect((LPVOID)0x4A292B, 5, PAGE_READWRITE, &_old);
