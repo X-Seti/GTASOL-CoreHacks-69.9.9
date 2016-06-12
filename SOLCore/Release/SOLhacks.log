@@ -1,7 +1,7 @@
-﻿Build started 07/06/2016 15:40:47.
+﻿Build started 12/06/2016 13:41:11.
      1>Project "C:\SDKs\Projects\Project-Liberty\Project-Liberty\SOLCore\SOLhacks.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SOLHACKS_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CCustomFont.cpp D3D8System.cpp GameScripting.cpp GameVC\CAutomobile.cpp GameVC\CAutoPilot.cpp GameVC\CCarCtrl.cpp GameVC\CCullZones.cpp GameVC\CCurves.cpp GameVC\CDebug.cpp GameVC\CFileLoader.cpp GameVC\CFileMgr.cpp GameVC\CFont.cpp GameVC\CGameHookManager.cpp GameVC\CGameVariables.cpp GameVC\CGeneral.cpp GameVC\entity.cpp GameVC\pathfinding.cpp GameVC\ChookPathfinding.cpp GameVC\CPed.cpp GameVC\CSprite2D.cpp GameVC\CTheCarGenerators.cpp GameVC\CTheZones.cpp GameVC\CTxdStore.cpp GameVC\physical.cpp GameVC\timer.cpp GameVC\trafficlights.cpp GameVC\weather.cpp GameVC\world.cpp GameVC\GameVC.cpp FileLoaderAddIns.cpp GameVC\vehicle.cpp hooksystem.cpp IDirect3D8Hook.cpp IDirect3DDevice8Hook.cpp main.cpp MenuMapHack.cpp MiscellaneousPatches.cpp RadarHack.cpp Speedo.cpp tex.cpp VehicleLimitPatch.cpp WaterHack.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SOLHACKS_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CCustomFont.cpp D3D8System.cpp FileLoaderAddIns.cpp GameScripting.cpp GameVC\CAutoPilot.cpp GameVC\CAutomobile.cpp GameVC\CCarCtrl.cpp GameVC\CCullZones.cpp GameVC\CCurves.cpp GameVC\CDebug.cpp GameVC\CFileLoader.cpp GameVC\CFileMgr.cpp GameVC\CFont.cpp GameVC\CGameHookManager.cpp GameVC\CGameVariables.cpp GameVC\CGeneral.cpp GameVC\CPed.cpp GameVC\CSprite2D.cpp GameVC\CTheCarGenerators.cpp GameVC\CTheZones.cpp GameVC\CTxdStore.cpp GameVC\ChookPathfinding.cpp GameVC\GameVC.cpp GameVC\entity.cpp GameVC\pathfinding.cpp GameVC\physical.cpp GameVC\timer.cpp GameVC\trafficlights.cpp GameVC\vehicle.cpp GameVC\weather.cpp GameVC\world.cpp IDirect3D8Hook.cpp IDirect3DDevice8Hook.cpp MenuMapHack.cpp MiscellaneousPatches.cpp RadarHack.cpp Speedo.cpp VehicleLimitPatch.cpp WaterHack.cpp hooksystem.cpp main.cpp tex.cpp
          CCustomFont.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2) : see previous definition of '_pad'
@@ -10,20 +10,27 @@
          D3D8System.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         FileLoaderAddIns.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+     1>FileLoaderAddIns.cpp(91): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>FileLoaderAddIns.cpp(125): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
          GameScripting.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
      1>GameScripting.cpp(148): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+         CAutoPilot.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+     1>GameVC\CAutoPilot.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
          CAutomobile.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
      1>GameVC\CAutomobile.cpp(35): warning C4409: illegal instruction size
      1>GameVC\CAutomobile.cpp(36): warning C4409: illegal instruction size
-         CAutoPilot.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-     1>GameVC\CAutoPilot.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
          CCarCtrl.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
@@ -106,6 +113,28 @@
          CGeneral.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         CPed.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         CSprite2D.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         CTheCarGenerators.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         CTheZones.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         Compiling...
+         CTxdStore.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         ChookPathfinding.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         GameVC.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          entity.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
@@ -115,25 +144,6 @@
      1>GameVC\pathfinding.cpp(647): warning C4018: '<' : signed/unsigned mismatch
      1>GameVC\pathfinding.cpp(1050): warning C4805: '==' : unsafe mix of type 'char' and type 'bool' in operation
      1>GameVC\pathfinding.cpp(1058): warning C4805: '==' : unsafe mix of type 'char' and type 'bool' in operation
-         ChookPathfinding.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         CPed.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         CSprite2D.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         Compiling...
-         CTheCarGenerators.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         CTheZones.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         CTxdStore.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          physical.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
@@ -144,35 +154,19 @@
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
      1>GameVC\trafficlights.cpp(338): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         vehicle.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          weather.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          world.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         GameVC.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         FileLoaderAddIns.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-     1>FileLoaderAddIns.cpp(91): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
-     1>FileLoaderAddIns.cpp(125): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
-         vehicle.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         hooksystem.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          IDirect3D8Hook.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          IDirect3DDevice8Hook.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         main.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          MenuMapHack.cpp
@@ -195,14 +189,6 @@
          Speedo.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-         tex.cpp
-     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
-                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
-     1>tex.cpp(50): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
-     1>tex.cpp(134): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
-         Compiling...
          VehicleLimitPatch.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2) : see previous definition of '_pad'
@@ -210,6 +196,20 @@
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
      1>WaterHack.cpp(243): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         hooksystem.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         Compiling...
+         main.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         tex.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+     1>tex.cpp(50): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>tex.cpp(134): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\k\Desktop\GTASOLBeta69.9.9(StrongeAsBull)\mss\SOLcore.asi" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libci.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\k\Desktop\GTASOLBeta69.9.9(StrongeAsBull)\mss\SOLcore.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\k\Desktop\GTASOLBeta69.9.9(StrongeAsBull)\mss\SOLcore.lib" /MACHINE:X86 /SAFESEH /DLL Release\sahud.res
          Release\CCustomFont.obj
@@ -264,4 +264,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:38.25
+Time Elapsed 00:00:51.99

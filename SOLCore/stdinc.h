@@ -14,6 +14,7 @@
 #include <math.h>
 #include <functional>
 #include <typeinfo>
+#include <memoryapi.h>
 
 // directx
 #include <d3d8.h>

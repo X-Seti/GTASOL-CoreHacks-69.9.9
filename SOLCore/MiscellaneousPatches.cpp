@@ -338,6 +338,28 @@ void PatchMiscData(){
 	CMemory::InstallPatch<float>(0x68F1F8, 50.0); // set 50.0 default
 	CMemory::InstallPatch<float>(0x68F1FC, 5.0); // multiplier 5.0 default
 
+	// Igorx's Memu hacks.
+	//0x4A2831 0x4A292B 0x4A2A34 0x4A2DB9 0x4A2EB3 0x4A2FC2 0x4A30D1 calls bar functions in menu
+	//I will describe every pos for the functions later
+
+	DWORD _old;
+	VirtualProtect((LPVOID)0x4A2831, 5, PAGE_READWRITE, &_old);
+	memset((PVOID)0x4A2831, 0x90, 5);
+	VirtualProtect((LPVOID)0x4A292B, 5, PAGE_READWRITE, &_old);
+	memset((PVOID)0x4A292B, 0x90, 5);
+	VirtualProtect((LPVOID)0x4A2A34, 5, PAGE_READWRITE, &_old);
+	memset((PVOID)0x4A2A34, 0x90, 5);
+	VirtualProtect((LPVOID)0x4A2DB9, 5, PAGE_READWRITE, &_old);
+	memset((PVOID)0x4A2DB9, 0x90, 5);
+	VirtualProtect((LPVOID)0x4A2EB3, 5, PAGE_READWRITE, &_old);
+	memset((PVOID)0x4A2EB3, 0x90, 5);
+	VirtualProtect((LPVOID)0x4A2FC2, 5, PAGE_READWRITE, &_old);
+	memset((PVOID)0x4A2FC2, 0x90, 5);
+	VirtualProtect((LPVOID)0x4A30D1, 5, PAGE_READWRITE, &_old);
+	memset((PVOID)0x4A30D1, 0x90, 5);
+
+	//0x90 is nop. It replaces the call function to figure out the black bars (2d effects) on the game menu.
+
 	// Initialize Set Actor, byte (0 off 1 on).
 
 	// Initialize Translucent Text Box OnScreen, byte (0 off 1 on).
