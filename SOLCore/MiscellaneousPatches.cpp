@@ -193,7 +193,7 @@ void PatchMiscData(){
 	CMemory::InstallPatch<char*>(0x48AB61, colbuffer);
 
 	// Misc Water hacks. Z level negative underwater.
-	//CMemory::InstallPatch<float>(0x6912DC, 240.0); // Z depth level.
+	//  CMemory::InstallPatch<float>(0x6912DC, 240.0); // Z depth level.
 	//	CMemory::InstallPatch<float>(0x78D658, 6.0); //Visible tiles.
 	//	CMemory::InstallPatch<float>(0x78D65C, 6.0); //Physical tiles.
 
@@ -332,8 +332,11 @@ void PatchMiscData(){
 	CMemory::InstallPatch<float>(0x68F1F8, 50.0); // set 50.0 default
 	CMemory::InstallPatch<float>(0x68F1FC, 5.0); // multiplier 5.0 default
 
-	// Misc engine sounds - does not work
-	//CMemory::InstallPatch<float>(0x6AD1A0, 0.0);
+	// Controls removing cars that are far away, needs looking at.
+	//CMemory::InstallPatch<byte>(0x426640, 0);
+
+	// Vehicle speed multiplier 
+	CMemory::InstallPatch<float>(0x821F7C, 5.0);
 
 	// Disable the calls to the default ingame menu. (works)
 	//CMemory::NoOperation(0x49A062, 0x7);
@@ -343,7 +346,6 @@ void PatchMiscData(){
 
 	// Igorx's Memu hacks.
 	//0x4A2831 0x4A292B 0x4A2A34 0x4A2DB9 0x4A2EB3 0x4A2FC2 0x4A30D1 calls bar functions in menu
-	//I will describe every pos for the functions later
 
 	DWORD _old;
 
