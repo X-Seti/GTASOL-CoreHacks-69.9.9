@@ -1,0 +1,11 @@
+﻿'GTASOL-Start.exe' (Win32): Loaded 'C:\Users\k\Desktop\GTASOLBeta69.9.9(StrongeAsBull)\GTASOL-Start.exe'. Cannot find or open the PDB file.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. Cannot find or open the PDB file.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. Cannot find or open the PDB file.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcr110.dll'. Symbols loaded.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. Cannot find or open the PDB file.
+'GTASOL-Start.exe' (Win32): Loaded 'C:\Windows\SysWOW64\apphelp.dll'. Cannot find or open the PDB file.
+The thread 0x2e21c has exited with code 0 (0x0).
+The program '[188184] GTASOL-Start.exe' has exited with code 0 (0x0).

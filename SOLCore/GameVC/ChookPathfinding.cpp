@@ -1,11 +1,14 @@
 #include "../StdInc.h"
 
+//Changes 
+//pThePaths = (CPathFind*)0x9B6E5C; put back
+
 template<> CPathFindHook * CSingleton<CPathFindHook>::m_pSingleton = NULL;
 CPathFind* pThePaths = NULL;
 
 void CPathFindHook::InitPathBuffer(void)
 {
-	//    pThePaths = (CPathFind*)0x9B6E5C;
+	pThePaths = (CPathFind*)0x9B6E5C;
 	pThePaths = new CPathFind();
 }
 

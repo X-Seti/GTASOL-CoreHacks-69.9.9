@@ -1,10 +1,10 @@
 #include "../StdInc.h"
 
 DWORD   dwFunc_CSprite2d__SetTexture1Param      = 0x005789E0;
-DWORD   dwFunc_CSprite2d__SetTexture2Param    = 0x005789B0;
-DWORD   dwFunc_CSprite2d__DrawRect      = 0x00577B00;
-DWORD   dwFunc_CSprite2d__Draw1         = 0x005786A0;
-DWORD   dwFunc_CSprite2d__SetAddressing = 0x00578970;
+DWORD   dwFunc_CSprite2d__SetTexture2Param      = 0x005789B0;
+DWORD   dwFunc_CSprite2d__DrawRect              = 0x00577B00;
+DWORD   dwFunc_CSprite2d__Draw1			        = 0x005786A0;
+DWORD   dwFunc_CSprite2d__SetAddressing		    = 0x00578970;
 DWORD   dwFunc_CSprite2d__DrawTextureRect2Param = 0x00578710;
 
 _declspec(naked) void CSprite2d::DrawRect(CRect& rect, CRGBA& colour) {
