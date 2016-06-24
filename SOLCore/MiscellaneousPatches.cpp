@@ -161,7 +161,13 @@ void PatchMiscData(){
 	CMemory::InstallPatch<BYTE>(0x42BC1F, 0);
 	CMemory::InstallPatch<BYTE>(0x42BC24, 0);
 
-
+	// Backward face culling.
+	CMemory::InstallPatch<BYTE>(0x4C9E5F, 0);
+	CMemory::InstallPatch<BYTE>(0x4C9F08, 0);
+	CMemory::InstallPatch<BYTE>(0x4C9F5D, 0);
+	CMemory::InstallPatch<BYTE>(0x4CA157, 0);
+	CMemory::InstallPatch<BYTE>(0x4CA199, 0);
+	
 	// Initialize the lod/default limit for the detail distance (infusions). 
 	CMemory::InstallPatch<float>(0x69022C, 800.0f); //Default 
 	CMemory::InstallPatch<float>(0x698FE0, 800.0f); //LOD

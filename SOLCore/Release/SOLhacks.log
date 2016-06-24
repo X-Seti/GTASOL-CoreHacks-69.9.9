@@ -1,8 +1,14 @@
-﻿Build started 12/06/2016 15:41:09.
+﻿Build started 24/06/2016 12:51:09.
      1>Project "C:\SDKs\Projects\Project-Liberty\Project-Liberty\SOLCore\SOLhacks.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SOLHACKS_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MiscellaneousPatches.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SOLHACKS_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameVC\CCullZones.cpp MiscellaneousPatches.cpp Speedo.cpp
+         CCullZones.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
          MiscellaneousPatches.cpp
+     1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+                 c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+         Speedo.cpp
      1>c:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
                  c:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
        Link:
@@ -59,4 +65,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.39
+Time Elapsed 00:00:08.81
