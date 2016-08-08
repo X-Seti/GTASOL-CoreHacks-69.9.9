@@ -162,11 +162,12 @@ void PatchMiscData(){
 	CMemory::InstallPatch<BYTE>(0x42BC24, 0);
 
 	// Backward face culling.
-	CMemory::InstallPatch<BYTE>(0x4C9E5F, 0);
-	CMemory::InstallPatch<BYTE>(0x4C9F08, 0);
-	CMemory::InstallPatch<BYTE>(0x4C9F5D, 0);
-	CMemory::InstallPatch<BYTE>(0x4CA157, 0);
-	CMemory::InstallPatch<BYTE>(0x4CA199, 0);
+	CMemory::InstallPatch<byte>(0x4C9E5F, 0);
+	CMemory::InstallPatch<byte>(0x4C9F08, 0);
+	CMemory::InstallPatch<byte>(0x4C9F5D, 0);
+	CMemory::InstallPatch<byte>(0x4CA157, 0);
+	CMemory::InstallPatch<byte>(0x4CA199, 0);
+	CMemory::InstallPatch<byte>(0x4E0146, 0);
 	
 	// Initialize the lod/default limit for the detail distance (infusions). 
 	CMemory::InstallPatch<float>(0x69022C, 800.0f); //Default 
@@ -333,16 +334,16 @@ void PatchMiscData(){
 	//CMemory::InstallPatch<float>(0x68FD3C, 4.0); //Y shape
 
 	// Initialize Game engine clock speed (float)
-	CMemory::InstallPatch<float>(0x68F1F0, 50.0); // set 50.0 default
-	CMemory::InstallPatch<float>(0x68F1F4, 5.0); // multiplier 5.0 default
-	CMemory::InstallPatch<float>(0x68F1F8, 50.0); // set 50.0 default
-	CMemory::InstallPatch<float>(0x68F1FC, 5.0); // multiplier 5.0 default
+	CMemory::InstallPatch<float>(0x68F1F0, 60.0f); // set 50.0 default
+	CMemory::InstallPatch<float>(0x68F1F4, 6.0f); // multiplier 5.0 default
+	CMemory::InstallPatch<float>(0x68F1F8, 60.0f); // set 50.0 default
+	CMemory::InstallPatch<float>(0x68F1FC, 6.0f); // multiplier 5.0 default
 
 	// Controls removing cars that are far away, needs looking at.
 	//CMemory::InstallPatch<byte>(0x426640, 0);
 
 	// Vehicle speed multiplier 
-	CMemory::InstallPatch<float>(0x821F7C, 5.0);
+	CMemory::InstallPatch<float>(0x821F7C, 4.0f);
 
 	// Disable the calls to the default ingame menu. (works)
 	//CMemory::NoOperation(0x49A062, 0x7);
