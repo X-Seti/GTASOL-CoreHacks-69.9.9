@@ -1,8 +1,8 @@
-﻿Build started 08/08/2016 14:20:41.
-     1>Project "C:\SDKs\Projects\Project-Liberty\Project-Liberty\Loader\_Loader.vcxproj" on node 3 (Build target(s)).
+﻿Build started 18/10/2017 14:09:21.
+     1>Project "H:\SDKs\Projects\Project-Liberty\Project-Liberty\Loader\_Loader.vcxproj" on node 3 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(64,5): error MSB8020: The build tools for v140 (Platform Toolset = 'v140') cannot be found. To build using the v140 build tools, please install v140 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Upgrade Solution...".
-     1>Done Building Project "C:\SDKs\Projects\Project-Liberty\Project-Liberty\Loader\_Loader.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "H:\SDKs\Projects\Project-Liberty\Project-Liberty\Loader\_Loader.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.08
+Time Elapsed 00:00:00.10

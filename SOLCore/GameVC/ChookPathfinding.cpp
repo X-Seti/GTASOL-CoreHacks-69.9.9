@@ -1450,13 +1450,11 @@ void CPathFindHook::ApplyHook()
     // Hooks in CGame::Init
     CMemory::InstallCallHook(0x4A4C0C, _classTrampoline_CPathFind_Init, ASM_CALL);
     CMemory::NoOperation(0x4A4C16, 5); // Remove One Unused Parameter
-
     CMemory::InstallCallHook(0x4A4C1B, _classTrampoline_CPathFind_AllocatePathFindInfoMem, ASM_CALL);    
     CMemory::InstallCallHook(0x4A4CE7, _classTrampoline_CPathFind_PreparePathData, ASM_CALL);
     // Install PreparePathDataHook
     CMemory::InstallCallHook(0x43BF3C, _classTrampoline_CPathFind_PreparePathDataForType, ASM_CALL);
     CMemory::InstallCallHook(0x43BF74, _classTrampoline_CPathFind_PreparePathDataForType, ASM_CALL);
-
     CMemory::InstallCallHook(0x439070, _classTrampoline_CPathFind_DoPathSearch, ASM_JMP);
     CMemory::InstallCallHook(0x437150, _classTrampoline_CPathFind_FindNodeClosestToCoors, ASM_JMP);
     CMemory::InstallCallHook(0x437330, _classTrampoline_CPathFind_AddNodeToList, ASM_JMP);
@@ -1470,12 +1468,9 @@ void CPathFindHook::ApplyHook()
     CMemory::InstallCallHook(0x436E40, _classTrampoline_CPathFind_FindNodeClosestToCoorsFavourDirection, ASM_JMP);
     CMemory::InstallCallHook(0x4354E0, _classTrampoline_CPathFind_TestCrossesRoad, ASM_JMP);
     CMemory::InstallCallHook(0x4356B0, _classTrampoline_CPathFind_TestForPedTrafficLight, ASM_JMP);
-
     CMemory::InstallCallHook(0x434EB0, _classTrampoline_CCarPathLink_OneWayLaneOffset, ASM_JMP);
-
     CMemory::InstallCallHook(0x435140, CPathFind::TakeWidthIntoAccountForCoors, ASM_JMP);
     CMemory::InstallCallHook(0x4351C0, CPathFind::TakeWidthIntoAccountForWandering, ASM_JMP);
-
 
 
     // hooks inside CAutopilot::ModifySpeed

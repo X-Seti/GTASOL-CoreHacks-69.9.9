@@ -52,6 +52,7 @@
 #include "GameVC\GameVC.h"
 #include "GameVC\CFileMgr.h"
 #include "GameVC\CDebug.h"
+#include "GameVC\CIMGAdjuster.h"
 #include "GameVC\CFileLoader.h"
 #include "GameVC\CTheZones.h"
 #include "GameVC\CCullZones.h"

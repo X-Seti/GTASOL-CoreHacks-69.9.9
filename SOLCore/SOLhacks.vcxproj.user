@@ -7,8 +7,8 @@
     <LocalDebuggerCommandArguments>-window</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LocalDebuggerCommand>C:\Users\Keith\Desktop\GTASOLBeta69.9.9%28StrongeAsBull%29\GTASOL-Start.exe</LocalDebuggerCommand>
-    <LocalDebuggerWorkingDirectory>C:\Users\Keith\Desktop\GTASOLBeta69.9.9%28StrongeAsBull%29\</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerCommand>H:\home\k\Desktop\GTASOLBeta70.0.0(FireBull)\GTASOL-Start.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>H:\home\k\Desktop\GTASOLBeta70.0.0(FireBull)\</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerCommandArguments>-window</LocalDebuggerCommandArguments>
     <LocalDebuggerAttach>true</LocalDebuggerAttach>

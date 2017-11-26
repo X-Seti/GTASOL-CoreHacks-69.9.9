@@ -52,7 +52,7 @@
     <TargetExt>.asi</TargetExt>
     <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;</ReferencePath>
     <LibraryPath>$(VCInstallDir)lib;C:\VCLib;C:\SDKs\libexec;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86);$(DIRECTX8_SDK)\lib;C:\SDKs\DXSDK8.1\lib</LibraryPath>
-    <OutDir>C:\Users\k\Desktop\GTASOLBeta69.9.9(StrongeAsBull)\mss\</OutDir>
+    <OutDir>H:\home\k\Desktop\GTASOLBeta70.0.0(FireBull)\mss\</OutDir>
     <IncludePath>C:\SDKs\DXSDK8.1\include;C:\VCInclude\DXSDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <ExecutablePath>C:\SDKs\libexec;$(ExecutablePath)</ExecutablePath>

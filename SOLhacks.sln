@@ -1,6 +1,9 @@
-﻿Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SOLCore", "SOLCore\SOLhacks.vcxproj", "{8C5E0F5F-3B63-40B7-82E9-A79B69DCBB86}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SOLcore", "SOLCore\SOLhacks.vcxproj", "{8C5E0F5F-3B63-40B7-82E9-A79B69DCBB86}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client - Loader", "loader\_Loader.vcxproj", "{AF2AF376-1ACD-4F3B-B399-2A30D8BE950E}"
 EndProject
@@ -25,11 +28,13 @@ Global
 		{AF2AF376-1ACD-4F3B-B399-2A30D8BE950E}.Nightly|Win32.ActiveCfg = Nightly|Win32
 		{AF2AF376-1ACD-4F3B-B399-2A30D8BE950E}.Nightly|Win32.Build.0 = Nightly|Win32
 		{AF2AF376-1ACD-4F3B-B399-2A30D8BE950E}.Release|Win32.ActiveCfg = Release|Win32
-		{AF2AF376-1ACD-4F3B-B399-2A30D8BE950E}.Release|Win32.Build.0 = Release|Win32
 		{AF2AF376-1ACD-4F3B-B399-2A30D8BE950E}.Template|Win32.ActiveCfg = Template|Win32
 		{AF2AF376-1ACD-4F3B-B399-2A30D8BE950E}.Template|Win32.Build.0 = Template|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E918C31-2FB4-4228-98F1-1B972E28D16A}
 	EndGlobalSection
 EndGlobal

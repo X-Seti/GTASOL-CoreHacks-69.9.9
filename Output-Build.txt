@@ -1,3 +1,12 @@
 ﻿1>------ Build started: Project: SOLcore, Configuration: Release Win32 ------
-1>  SOLhacks.vcxproj -> C:\Users\k\Desktop\GTASOLBeta69.9.9(StrongeAsBull)\mss\SOLcore.asi
-========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+2>------ Skipped Build: Project: Client - Loader, Configuration: Release Win32 ------
+2>Project not selected to build for this solution configuration 
+1>MiscellaneousPatches.cpp
+1>h:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\renderwaretypes.h(2): warning C4005: '_pad' : macro redefinition
+1>        h:\sdks\projects\project-liberty\project-liberty\solcore\utils.h(7) : see previous definition of '_pad'
+1>Generating code
+1>h:\sdks\projects\project-liberty\project-liberty\solcore\gamevc\pathfinding.cpp(1347): warning C4715: 'CPathFind::TestCoorsCloseness' : not all control paths return a value
+1>Finished generating code
+1>SOLhacks.vcxproj -> H:\home\k\Desktop\GTASOLBeta70.0.0(FireBull)\mss\SOLcore.asi
+1>Done building project "SOLhacks.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 1 skipped ==========

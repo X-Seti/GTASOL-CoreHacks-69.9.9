@@ -1336,11 +1336,13 @@ bool CPathFind::TestCoorsCloseness(CVector& posDest, uint8_t uiPathDataFor, CVec
             break;
         case PATHDATAFOR_PED:
             DoPathSearch(PATHDATAFOR_PED, posOrigin, -1, posDest, NULL, &sPedSteps, 0, NULL, &fDistance, 50.0f, -1);
-            if (fDistance < 50.0f) //100.0f
-                return true;
-            else
-                return false;
-            break;
+			if (fDistance < 50.0f) { //100.0f
+				return true;
+			}
+			else {
+				return false;
+			}
+			break;
     }
 }
 
